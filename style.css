@@ -1,0 +1,248 @@
+.navbar {
+  margin-bottom: 0px; }
+
+.indexWords {
+  display: inline-block;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 5%;
+  border-radius: 30px;
+  background: rgba(40, 46, 52, 0.8); }
+
+
+  .indexWords h1 {
+    font-size: 5em;
+    font-weight: bold; }
+
+
+body {
+  font-family: "Lato", sans-serif;
+
+}
+
+.epic-list {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.epic-list a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s
+}
+
+.epic-list a:hover, .offcanvas a:focus{
+  color: #f1f1f1;
+}
+
+.epic-list .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 30px;
+  height: 100vh; }
+
+.angular-google-map-container {
+  height: 75vh;
+  border: 5px solid #5D4A66; }
+
+#map {
+  height: 50vh; }
+
+.angular-google-map-container {
+	height: 80vh;
+}
+
+.window_header {
+  font-size: 22px;
+  font-weight: 400;
+  padding: 10px;
+  background-color: #282E34;
+  text-align: center;
+  color: white;
+  margin: 1px;
+  border-radius: 2px 2px 0 0;
+}
+
+#map {
+  height: 100vh;
+}
+
+#marker {
+  height: 5px; }
+
+.window_info {
+  color: blue;
+  text-align: center; }
+
+.window_info:hover {
+  text-decoration: none;
+  color: #282E34; }
+
+.story_show {
+  text-align: center;
+  background: #282E34;
+  color: white;
+  margin-bottom: 5%;
+  padding: 2%;
+  margin-top: 5%;
+  border-radius: 30px;
+  width: 50vw;
+  margin-left: 20%;
+
+}
+
+  .story_show img {
+    width: 50%;
+    border-radius: 10px;
+  }
+
+
+.storyHeader {
+  text-align: center;
+  font-size: 2em; }
+
+button {
+  background-color: #5D4A66;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px; }
+
+button:hover {
+  background-color: white;
+  color: #505A5B; }
+
+.addStory {
+  text-align: center;
+  padding: 2%; }
+
+.edit-epic-form {
+  text-align: center;
+  padding: 2%;
+ }
+
+.create-form {
+  text-align: center;
+  padding: 2%;
+  transition: all linear 0.5s;
+  height: 50%;
+  color: #282e34;
+  font-weight: bold; }
+
+.indexHeader {
+  text-align: center;
+  padding: 1%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6%;
+  width: 100vw;
+  color: white; }
+
+  .indexHeader h1 {
+    padding: 1%; }
+
+.bg1 {
+  background-image: url("http://www.tentree.com/blog/wp-content/uploads/2015/07/stanton-moor-5042x3151-peak-district-uk-forest-wildflowers-fog-5363-1024x683.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+ }
+
+.bg2 {
+  background-image: url("thailand.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px; }
+
+#slides_control > div {
+  height: 200px; }
+
+
+#slides_control {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 20px;
+  margin-left: -200px; }
+
+.carousel {
+  width: 100%;
+  margin: 0 auto; }
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+  width: 100%; }
+
+#beach {
+  height: 500px;
+  width: 100%; }
+
+#cliffs {
+  height: 500px;
+  width: 100%; }
+
+#ireland {
+  height: 500px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
+
+}
+.window_wrapper {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+}
+.window_img {
+  max-width: 200px;
+  max-height: 200px;
+}
+.window_link{
+  text-align: center;
+  color: #282e34;
+  text-decoration: none;
+}
+
+
+#epic-carousel {
+  margin-bottom: 5%;
+}
+
+
+.edit-form {
+  color:black;
+  margin-top: 10%;
+}
+
+.edit-form button {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
