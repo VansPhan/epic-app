@@ -37,20 +37,20 @@
   	function RouterFunction($stateProvider) {
   		$stateProvider
   		.state("epicIndex", {
-	      url: "",
-	      templateUrl: "js/home/index.html",
+	      url: "/",
+	      templateUrl: "assets/home/index.html",
 	      controller: "HomeIndexController",
 	      controllerAs: "HomeIndexCtrl"
    	})
 		.state("epicShow", {
 			url: "/epics/:id",
-			templateUrl: "js/home/show.html",
+			templateUrl: "assets/home/show.html",
 			controller: "HomeShowController",
 			controllerAs: "HomeShowCtrl"
 		})
     .state("otherwise", {
       url : "*path",
-      templateUrl: "js/home/index.html",
+      templateUrl: "assets/home/index.html",
       controller: "HomeIndexController",
       controllerAs: "HomeIndexCtrl"
     });

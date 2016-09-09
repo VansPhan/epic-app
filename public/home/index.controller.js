@@ -48,7 +48,6 @@
         model: {}
       }
       // Map Styles \\
-      console.log(stylesArray);
       $scope.options = {
         styles: stylesArray,
         options: {
@@ -76,7 +75,6 @@
 
       // Marker events \\
       $scope.markerClick = function(marker){
-        console.log(marker);
         var contentString = '<a class="window_link window_wrapper" href=#/epics/'+marker.model.id+'><h3 class="window_header">'+marker.model.title+'</h3>' + '<img class="window_img" src='+marker.model.img+'>' + '<p>'+marker.model.sum+'</p></a>'
           var infowindow = new google.maps.InfoWindow({
             content: contentString,
@@ -90,7 +88,7 @@
       $scope.markersOptions = {
         options: {draggable: false,
           icon:{
-            url: 'shadowPin.png',
+            url: 'assets/shadowPin.png',
             scaledSize: {width: 40, height: 40}
           },
           animation: window.google.maps.Animation.DROP

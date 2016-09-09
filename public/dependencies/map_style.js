@@ -1,5 +1,4 @@
 // Map Style \\
-console.log("map style");
 var stylesArray =[
   // Natural landmass
 { "featureType": "landscape.natural",
