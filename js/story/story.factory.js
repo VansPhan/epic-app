@@ -9,7 +9,7 @@
       ]);
 
       function StoryFactoryFunction($resource) {
-         return $resource("https://salty-inlet-35098.herokuapp.com/stories/:id", {}, {
+         return $resource("https://epic-db.herokuapp.com/stories/:id", {}, {
          update: { method: "PUT" }
       });
    }
